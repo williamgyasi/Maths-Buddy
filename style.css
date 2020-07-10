@@ -1,0 +1,122 @@
+html{
+  height: 100%;
+  background: radial-gradient(circle,#fff,#ccc);
+}
+
+i {
+  padding: 5px;
+  color: white;
+}
+#container{
+  height: 520px;
+  width: 600px;
+  background-color: rgb(33, 150, 185);
+  margin: 30px 150px;
+  border-radius: 3%;
+  position: relative;
+  padding:20px;
+  box-shadow: 0 3px 10px rgb(41, 41, 102);
+}
+
+#score{
+  background-color: rgb(33, 210, 241);
+  padding: 10px;
+  color: white;
+  position: absolute;
+  font-weight: 300;
+  letter-spacing: 0.2;
+  right: 0;
+  margin-right:20px ;
+  font-size: 20px;
+  box-shadow: 0 3px 10px rgb(59, 83, 74) ;
+  border-radius: 10px;
+}
+
+#correct{
+  position: absolute;
+  left: 255px;
+  font-size: 20px;
+  padding: 5px;
+  color: white;
+  border-radius: 10px;
+  background-color: green;
+  display: none;
+}
+
+
+#wrong{
+  position: absolute;
+  left: 155px;
+  font-size: 20px;
+  padding: 5px;
+  display: none;
+  color: white;
+  border-radius: 10px;
+  background-color: red;
+}
+
+#question{
+  background-color: rgb(15, 144, 184);
+  width: 450px;
+  border-radius: 10px;
+  height: 200px;
+  font-size: 120px;
+  text-align: center;
+  justify-content: center;
+  font-family: cursive;
+  line-height: 150%;
+  margin: 12% auto 10px;
+  box-shadow: 2px 4px 10px black;
+}
+
+#instruction{
+text-align: center;
+background-color: rgb(15, 144, 184);
+box-shadow: 2px 4px 10px black;
+padding: 15px;
+color: white;
+width: 420px;
+border-radius: 10px;
+margin: 0 auto 20px;
+}
+
+#choices{
+  width: 450px;
+  height: 100px;
+  margin: 0 auto 10px;
+
+}
+
+#startreset{
+  background-color:green;
+  position: absolute;
+  left: 275px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.box{
+  height: 80px;
+  width: 80px;
+  background-color: rgb(4, 45, 156);
+  float: left;
+  margin-right: 38px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-family: cursive;
+  line-height: 180%;
+  font-size: 40px;
+  box-shadow: -3px 4px 10px rgb(20, 69, 83);
+  color: white;
+}
+
+#box4{
+  margin-right: 0;
+}
+
+
+
+
+

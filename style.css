@@ -7,11 +7,14 @@ i {
   padding: 5px;
   color: white;
 }
+.wrapper{
+  display:flex ;
+}
 #container{
-  height: 520px;
-  width: 600px;
+  height: 540px;
+  width: 650px;
   background-color: rgb(33, 150, 185);
-  margin: 30px 150px;
+  margin: 30px 130px 30px 40px;
   border-radius: 3%;
   position: relative;
   padding:20px;
@@ -89,9 +92,12 @@ margin: 0 auto 20px;
 
 #startreset{
   background-color:green;
-  position: absolute;
-  left: 275px;
+  width: 90px;
+  margin: 0 auto;
+  cursor: pointer;
   padding: 10px;
+  text-align: center;
+  box-shadow: -3px 4px 10px rgb(20, 69, 83);
   border-radius: 10px;
   color: white;
 }
@@ -105,15 +111,52 @@ margin: 0 auto 20px;
   border-radius: 10px;
   cursor: pointer;
   text-align: center;
+  position: relative;
   font-family: cursive;
   line-height: 180%;
   font-size: 40px;
   box-shadow: -3px 4px 10px rgb(20, 69, 83);
   color: white;
+  transition: all .2s;
+}
+.box:hover,#startreset:hover{
+  background-color: rgb(44, 31, 104);
+}
+.box:active,#startreset:active{
+  box-shadow: 0 0 rgb(20, 69, 83) ;
+  top: 5px;
 }
 
 #box4{
   margin-right: 0;
+}
+
+#timeremaining{
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 128, 0, 0.555);
+  position: absolute;
+  margin-top: 10px;
+  left: 400px;
+  box-shadow: 0 0 rgb(20, 69, 83) ;
+  visibility: hidden;
+  display: none;
+}
+
+.animation{
+  height: 500px;
+  width: 300px;
+  background-color: rgb(33, 150, 185);
+  margin: 30px 130px 30px 40px;
+  border-radius: 3%;
+  position: relative;
+  padding:20px;
+  box-shadow: 0 3px 10px rgb(41, 41, 102);
 }
 
 

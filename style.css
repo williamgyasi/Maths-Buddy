@@ -14,7 +14,7 @@ i {
   height: 540px;
   width: 650px;
   background-color: rgb(33, 150, 185);
-  margin: 30px 130px 30px 40px;
+  margin: 30px 50px 30px 40px;
   border-radius: 3%;
   position: relative;
   padding:20px;
@@ -149,13 +149,13 @@ margin: 0 auto 20px;
 }
 
 .animation{
-  height: 500px;
-  width: 300px;
+  height: 250px;
+  width: 450px;
   background-color: rgb(33, 150, 185);
-  margin: 30px 130px 30px 40px;
+  margin: 30px 130px 0 0;
   border-radius: 3%;
   position: relative;
-  display: none;
+  display: block;
   padding:20px;
   box-shadow: 0 3px 10px rgb(41, 41, 102);
 }

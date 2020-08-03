@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&display=swap');
+*:focus{
+  outline: none;
+}
 html,body{
   background: radial-gradient(circle,#fff,#ccc);
   margin: 0;
   padding: 0;
+  font-size: 20px;
   font-family: 'Poppins','Lato',sans-serif;
   box-sizing: border-box;
 }
@@ -185,21 +189,74 @@ margin: 0 auto 20px;
   width: 1200px;
   height:550px;
  margin: 2.5% auto;
-  background-color: red;
-
+ 
 }
 
-/* .animation-side{
-  background-image: url("/assets/pictureside.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-
-}
 .forms-side{
-background-color: yellow;
-} */
+  background-color: blue;
+  width: 60%;
+  height: 100%;
+}
+.forms-placeholder{
+  padding: 10%;
+}
 
+form{
+  text-align: center;
+  color: white;
+}
+
+.forms-placeholder h3{
+  color: rgb(247, 242, 242);
+  font-size: 150%;
+  text-align: center;
+  font-family: 'Lato';
+  text-transform: uppercase;
+}
+
+input[type="email"],input[type="password"]{
+  padding: 8px;
+  border-radius: 20px;
+  border: 2px solid #dadada;
+  font-size: 100%;
+  color: white;
+  width: 70%;
+  margin-bottom: 30px;
+}
+input:focus{
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+}
+
+.forgot{
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  align-items: stretch;
+  margin-left: 15%;
+  font-size: 70%;
+  justify-content: space-between;
+}
+.forgot div{
+  
+  padding: 10px;
+}
+
+
+.forgot a{
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+
+.animation-side{
+  width: 40%;
+  background-color: yellow;
+  height: 100%;
+}
 
 
 

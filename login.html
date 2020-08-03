@@ -8,9 +8,10 @@
 </head>
 <body>
     <!--LOGIN SIDE-->
-    <div class="row login-page">
+    <div class="row page">
         <div class="col span-1-of-2 forms-side">
-            <div class="forms-placeholder">
+            <!--SIGN IN CONTAINER-->
+            <div class="forms-placeholder sign-in-container">
                 <h3>Sign in with us</h3>
                 <form>
                     <div class="email-placeholder">
@@ -30,9 +31,33 @@
 
                     <input type="submit" value="Sign In">
                 </form>
+            </div>
+            
 
-                <a href="#">Create Account</a>
-                
+            <!--SIGN UP CONTAINER-->
+            <div class="forms-placeholder sign-up-container">
+                <h3>Create Account</h3>
+                <form>
+                    <div class="name-placeholder">
+                        <input type="text" name="name" placeholder="Full Name" id="name">
+                    </div>
+                    <div class="email-placeholder">
+                        <input type="email" name="email" placeholder="Email" id="email">
+                    </div>
+                    <div class="password-placeholder">
+                        <input type="password" name="password" placeholder="Password" id="password">
+                    </div>
+
+                    <div class="forgot">
+                        <div>
+                            <input type="checkbox" name="forgot-password" id="remember" checked>
+                        <label for="forgot-password" class="check-label">Remember Me</label>
+                        </div>
+                        <a class="">Forgot Password?</a>
+                    </div>
+
+                    <input type="submit" value="Sign In">
+                </form>
             </div>
             
         </div>

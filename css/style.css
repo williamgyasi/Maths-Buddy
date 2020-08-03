@@ -4,7 +4,7 @@
   outline: none;
 }
 html,body{
-  background: radial-gradient(circle,#fff,#ccc);
+  
   margin: 0;
   padding: 0;
   font-size: 20px;
@@ -183,6 +183,9 @@ margin: 0 auto 20px;
 /**************************************************************************************/
 /******************************LOGIN FORMS*********************************************/
 /**************************************************************************************/
+/* .login-page{
+  background-color: red !important;
+} */
 .login-container{
   max-width: 100vw;
   max-height: 100vh;
@@ -191,18 +194,15 @@ margin: 0 auto 20px;
   margin: 2.5% auto;
   display: flex;
   border-radius: 15px;
-  background-color: blue;
+  background-color: rgba(0, 0, 255, 0.74);
   overflow: hidden;
-  position: relative;
-  background-color: purple;
- 
+  position: relative; 
 }
 
 
 .forms-placeholder{
   position: absolute;
   top: 0;
-  background-color: green;
 	height: 100%;
   transition: all 0.6s ease-in-out;
   margin-top: 50px;
@@ -346,7 +346,6 @@ input[type="submit"]:hover{
   left: 40%;
   width: 40%;
   height: 100%;
-
 }
 .overlay {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.7)),url("/assets/pictureside.jpg");
@@ -361,7 +360,7 @@ input[type="submit"]:hover{
 }
 
 .login-container.right-panel-active .overlay {
-  transform: translateX(50%);
+  transform: translateX(0%);
 }
 
 .overlay-panel {
@@ -372,30 +371,38 @@ input[type="submit"]:hover{
 	flex-direction: column;
 	padding: 0 40px;
   text-align: center;
-  left: -20%;
 	top: 0;
 	height: 100%;
   width: 50%;
 	transform: translateX(0);
 	transition: transform 0.6s ease-in-out;
 }
+.ghost{
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  font-size: 80%;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(31, 155, 204);
+}
 
 .overlay-left {
-  transform: translateX(-50%);
+  transform: translateX(-100%);
   
 }
 
 .overlay-right {
 	right: 0;
-	transform: translateX(0);
+	transform: translateX(-15%);
 }
 
 
 .login-container.right-panel-active .overlay-left {
-	transform: translateX(0);
+	transform: translateX(20%);
 }
 
 .login-container.right-panel-active .overlay-right {
-  transform: translateX(10%);
+  transform: translateX(-150%);
 }
 

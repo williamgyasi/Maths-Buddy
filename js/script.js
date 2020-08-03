@@ -1,3 +1,16 @@
+const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
+
+signUpButton.addEventListener('click', () => {
+    console.log("Adad")
+	container.classList.add("right-panel-active");
+});
+
+signInButton.addEventListener('click', () => {
+	container.classList.remove("right-panel-active");
+});
+
 var playing =false;
 var player_scores=0;
 var action;
@@ -175,4 +188,8 @@ function reset(){
 // }
 
 
+
+
+/***********************************************************************************/
+/****************************BUTTON ANIMATION***************************************/
 

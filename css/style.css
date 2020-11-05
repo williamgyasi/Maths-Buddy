@@ -194,7 +194,7 @@ margin: 0 auto 20px;
   margin: 2.5% auto;
   display: flex;
   border-radius: 15px;
-  background-color: rgba(0, 0, 255, 0.74);
+  background: linear-gradient(rgba(16, 61, 209, 0.822),rgba(32, 81, 114, 0.3));
   overflow: hidden;
   position: relative; 
 }
@@ -348,7 +348,7 @@ input[type="submit"]:hover{
   height: 100%;
 }
 .overlay {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.7)),url("/assets/pictureside.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url("/assets/pictureside.jpg");
   background-size: cover;
   background-position: center;
 	color: #FFFFFF;

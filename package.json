@@ -4,7 +4,7 @@
   "description": "A simple maths website to help kids with mathematics by generating questions",
   "main": "index.js",
   "scripts": {
-    "watch:sass":"node-sass sass/main css/style.css -w"
+    "watch:sass":"node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
     "type": "git",

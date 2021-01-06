@@ -4,7 +4,7 @@
   "description": "A simple maths website to help kids with mathematics by generating questions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch:sass":"node-sass m"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/williamgyasi/Maths-Buddy/issues"
   },
-  "homepage": "https://github.com/williamgyasi/Maths-Buddy#readme"
+  "homepage": "https://github.com/williamgyasi/Maths-Buddy#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }

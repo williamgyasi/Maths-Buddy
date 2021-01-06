@@ -1,0 +1,19 @@
+{
+  "name": "maths-buddy",
+  "version": "1.0.0",
+  "description": "A simple maths website to help kids with mathematics by generating questions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamgyasi/Maths-Buddy.git"
+  },
+  "author": "william/senior-partner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamgyasi/Maths-Buddy/issues"
+  },
+  "homepage": "https://github.com/williamgyasi/Maths-Buddy#readme"
+}
